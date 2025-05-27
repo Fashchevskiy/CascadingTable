@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Стилізація</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+
+        h2 {
+            color: #006400;
+            text-align: left;
+        }
+
+        p {
+            color: #333;
+            background-color: #e6f7ff;
+            padding: 10px;
+            border-left: 4px solid #0099cc;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .box {
+            background-color: #fffacd;
+            padding: 20px;
+            margin-top: 20px;
+            border: 2px dashed #ffa500;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 style="color: blue; text-align: center;">Заголовок з вбудованим стилем</h1>
+
+        <h2>Підзаголовок 2-го рівня</h2>
+        <p>Це параграф з прикладом внутрішнього стилю. Тут є фон, колір тексту, відступи та рамка.</p>
+
+        <h2>Список</h2>
+        <ul>
+            <li>Пункт 1</li>
+            <li>Пункт 2</li>
+            <li>Пункт 3</li>
+        </ul>
+
+        <h2>Посилання</h2>
+        <p>Ось <a href="https://www.google.com" target="_blank">посилання на Google</a>.</p>
+
+        <h2>Зображення</h2>
+        <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2022_5_31_637896077154349058_visual-studio-code-jpg.jpg" alt="Зразок зображення" class="image-sample">
+
+        <h2>Блоковий елемент</h2>
+        <div class="box">
+            Це div-блок з рамкою, кольором фону, вирівнюванням та відступами.
+        </div>
+
+    </div>
+
+</body>
+</html>
